@@ -1,0 +1,65 @@
+enterprise-iam-projects/
+├── 📄 README.md                          (This file)
+├── 📁 project-1-identity-governance-lab/
+│   ├── 📄 README.md                      (Project overview & architecture)
+│   ├── 📁 documentation/
+│   │   ├── 📄 technical-architecture.md  (System design & integration points)
+│   │   ├── 📄 implementation-guide.md    (Step-by-step configuration)
+│   │   └── 📄 lessons-learned.md         (Challenges & solutions)
+│   ├── 📁 automation-scripts/
+│   │   ├── 📄 user-provisioning.ps1      (Automated onboarding)
+│   │   ├── 📄 group-management.ps1       (Bulk membership updates)
+│   │   └── 📄 access-review-automation.ps1 (Certification campaigns)
+│   ├── 📁 test-data/
+│   │   ├── 📄 enterprise-users.csv       (1,047 test user records)
+│   │   ├── 📄 security-groups.csv        (111 group definitions)
+│   │   └── 📄 user-group-mappings.csv    (5,359 membership records)
+│   ├── 📁 configurations/
+│   │   ├── 📁 sailpoint/
+│   │   │   ├── 📄 connector-configs.xml  (Application connectors)
+│   │   │   └── 📄 role-definitions.xml   (Business role mappings)
+│   │   ├── 📁 okta/
+│   │   │   ├── 📄 app-integrations.json  (SAML/OIDC configurations)
+│   │   │   └── 📄 provisioning-rules.json (Automated workflows)
+│   │   └── 📁 azure-ad/
+│   │       ├── 📄 conditional-access-policies.json (Security policies)
+│   │       └── 📄 pim-configurations.json (Privileged access settings)
+│   └── 📁 monitoring-dashboards/
+│       ├── 📄 compliance-metrics.json    (Audit readiness indicators)
+│       └── 📄 operational-kpis.json      (Performance measurements)
+│
+├── 📁 project-2-access-governance-framework/
+│   ├── 📄 README.md                      (Project overview & outcomes)
+│   ├── 📁 workflow-automation/
+│   │   ├── 📄 servicenow-integration.ps1 (ITSM workflow automation)
+│   │   ├── 📄 approval-workflows.json    (Multi-level authorization)
+│   │   └── 📄 sla-monitoring.ps1         (Performance tracking)
+│   ├── 📁 compliance-reporting/
+│   │   ├── 📄 apra-cps234-reports.ps1    (Regulatory compliance)
+│   │   ├── 📄 iso27001-controls.ps1      (Control effectiveness)
+│   │   └── 📄 audit-trail-generator.ps1  (Evidence collection)
+│   ├── 📁 security-monitoring/
+│   │   ├── 📄 privileged-access-monitor.ps1 (PAM oversight)
+│   │   ├── 📄 sod-violation-detection.ps1   (Conflict identification)
+│   │   └── 📄 incident-response-automation.ps1 (Security alerts)
+│   └── 📁 operational-metrics/
+│       ├── 📄 performance-dashboard.json (Efficiency measurements)
+│       └── 📄 compliance-scorecard.json  (Regulatory readiness)
+│
+├── 📁 professional-development/
+│   ├── 📄 certification-roadmap.md       (Current & planned certifications)
+│   ├── 📄 technical-blog-posts.md        (Knowledge sharing articles)
+│   └── 📄 conference-presentations.md    (Industry engagement)
+│
+├── 📁 shared-resources/
+│   ├── 📁 powershell-modules/
+│   │   ├── 📄 IAM-Utils.psm1             (Reusable functions)
+│   │   └── 📄 Compliance-Tools.psm1      (Audit utilities)
+│   ├── 📁 templates/
+│   │   ├── 📄 conditional-access-template.json (Policy templates)
+│   │   └── 📄 role-definition-template.xml     (Role engineering)
+│   └── 📁 documentation-standards/
+│       ├── 📄 technical-writing-guide.md (Documentation consistency)
+│       └── 📄 configuration-standards.md (Implementation guidelines)
+│
+└── 📄 CAREER-ACHIEVEMENTS.md             (Professional accomplishments)
